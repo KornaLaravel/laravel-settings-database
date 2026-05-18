@@ -122,7 +122,7 @@ use Rawilk\Settings\Support\Context;
 public function withContext(Context|bool|null $context, Closure $callback): mixed
 ```
 
-Note: You will need to use the same settings instance within the callback to ensure the context is applied correctly. We provide tghe instance of the settings service to your callback:
+Note: You will need to use the same settings instance within the callback to ensure the context is applied correctly. We provide the instance of the settings service to your callback:
 
 ```php
 use Rawilk\Settings\Facades\Settings;
